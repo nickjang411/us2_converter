@@ -71,6 +71,7 @@ Postman
 
 ### Project Structure
 
+```
 us2_converter/
 │
 ├── converted_files/                                # All the converted files
@@ -99,3 +100,4 @@ us2_converter/
 │   └── receive.py/                                 # Main bi-directional server for handling files with external API
 │
 └── README.md               # Project documentation
+```
