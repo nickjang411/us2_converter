@@ -51,13 +51,6 @@
 
 - Run request with Postman
 
-```
-  npm install
-  npm start
-```
-
-Postman
-
 1. URL: POST http://localhost:3001/iopc/dicom?file_name=test1
 2. Body --> form-data --> Key: file --> Type File --> + New file from local machine --> Upload .dcm file
 3. Params --> Key: file_name --> Value: <example_file_name>
