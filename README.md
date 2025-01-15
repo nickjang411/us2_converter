@@ -4,6 +4,13 @@
 - Author: Nick Jang
 - Created: 20250115
 
+## References
+
+- DICOM: https://www.dicomstandard.org/
+- DICOM Parser: https://www.npmjs.com/package/dicom-parser
+- HL7: https://www.hl7.org/
+- HL7 Builder: https://github.com/iwtsolutions/hl7-builder
+
 ## dicom_converter
 
 - Description: `Node.js server that can convert .dcm files into images and .hl7 file formats`.
