@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "The API Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "aws-sdk": "^2.678.0",
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "circular-json": "^0.5.9",
+    "dicom-parser": "^1.8.21",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "hl7-builder": "^1.0.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^5.1.0",
+    "cors": "^2.8.5",
+    "jest": "^24.9.0",
+    "sinon": "^9.0.2",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "verbose": true,
+    "globals": {
+      "local_server": "http://localhost:8000"
+    }
+  }
+}

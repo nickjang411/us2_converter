@@ -1,0 +1,13 @@
+{
+    "username": "demo-phyxable",
+    "password": "Test1234!#",
+    "upload": true,
+    "env": "production",
+    "src": "upload",
+    "watch": "true",
+    "sync": ["127.0.0.1:12345:phyxable"],
+    "sync_modalities": ["SR", "SC"],
+    "extracted": "extracted.csv",
+    "csv_out": "extracted.csv",
+    "verbose": true
+}
