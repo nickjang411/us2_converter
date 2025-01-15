@@ -61,6 +61,12 @@
 
 - The converted files with be stored in `converted_files` folder, with original .dcm file, converted images and .hl7 files.
 
+### Tests
+1. Go to /dicom_converter
+```
+npm install
+npm run test
+```
 
 ### Project Structure
 
