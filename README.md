@@ -91,7 +91,7 @@ us2_converter/
 │   └── dicom_converter/                            # DICOM converter source code
 │       ├── src/                                    # Source code of the main converter
 │       │   ├── constant/                           # Constant values
-│       │   |   ├── code.js/                        # Server error codes
+│       │   |   └── code.js/                        # Server error codes
 │       │   ├── controller/                         # Controller API endpoints
 │       │   |   ├── dicom.controller.js/            # Main DICOM converter endpoints
 │       │   |   └── dicom.controller.test.js/       # Main DICOM converter endpoint tests
