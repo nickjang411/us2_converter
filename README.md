@@ -60,7 +60,7 @@
 
 1. URL: POST http://localhost:3001/iopc/dicom?file_name=test1
 2. Body --> form-data --> Key: file --> Type File --> + New file from local machine --> Upload .dcm file
-3. Params --> Key: file_name --> Value: <example_file_name>
+3. Params --> Key: file_name --> Value: <example_file_name> (Good to use any .dcm files in /us2 fodler)
 4. Click "Send"
 5. Check that the the file example_file_name_0.jpg, example_file_name.dcm and example_file_name.hl7 is saved in converted_files directory
 
