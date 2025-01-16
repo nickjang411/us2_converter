@@ -98,6 +98,9 @@ us2_converter/
 │       │       └── dicom.service.test.js/          # Main DICOM converter function tests
 │       │
 │       ├── README.md/                              # DICOM project documentation
+|       ├── .env/                                   # Project environment variables
+|       ├── package.json/                           # NPM packages and libraries
+│       ├── openapi.js/                             # OpenAPI Configuration for swagger documentation
 │       └── server.js                               # Main server
 │
 ├── us2/                                            # Project folder synched with https://us2.ai/
