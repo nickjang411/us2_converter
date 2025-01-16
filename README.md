@@ -108,5 +108,5 @@ us2_converter/
 │   ├── upload/                                     # Uploaded files folder
 │   └── receive.py/                                 # Main bi-directional server for handling files with external API
 │
-└── README.md               # Project documentation
+└── README.md                                       # Project documentation
 ```

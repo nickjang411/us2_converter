@@ -15,7 +15,7 @@
 ```
 
 ### Project Structure
-dicom_converter/                            # DICOM converter source code
+dicom_converter/                                    # DICOM converter source code
 │       ├── src/                                    # Source code of the main converter
 │       │   ├── constant/                           # Constant values
 │       │   |   ├── code.js/                        # Server error codes
@@ -26,8 +26,8 @@ dicom_converter/                            # DICOM converter source code
 │       │       ├── dicom.service.js/               # Main DICOM converter functions
 │       │       └── dicom.service.test.js/          # Main DICOM converter function tests
 │       │
-├── README.md/                              # DICOM project documentation
-├── .env/                                   # Project environment variables
-├── package.json/                           # NPM packages and libraries
-├── openapi.js/                             # OpenAPI Configuration for swagger documentation
-└── server.js                               # Main server
+├── README.md/                                      # DICOM project documentation
+├── .env/                                           # Project environment variables
+├── package.json/                                   # NPM packages and libraries
+├── openapi.js/                                     # OpenAPI Configuration for swagger documentation
+└── server.js                                       # Main server
