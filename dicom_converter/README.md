@@ -29,5 +29,4 @@ dicom_converter/                                    # DICOM converter source cod
 ├── README.md/                                      # DICOM project documentation
 ├── .env/                                           # Project environment variables
 ├── package.json/                                   # NPM packages and libraries
-├── openapi.js/                                     # OpenAPI Configuration for swagger documentation
 └── server.js                                       # Main server
