@@ -69,7 +69,9 @@
 - The converted files with be stored in `converted_files` folder, with original .dcm file, converted images and .hl7 files.
 
 ### Tests
+
 1. Go to /dicom_converter
+
 ```
 npm install
 npm run test
@@ -86,7 +88,7 @@ us2_converter/
 │   │   ├── test.dcm/                               # Original DICOM file
 │   │   ├── test.hl7/                               # Patient info HL7 file extracted from DICOM file
 │   │
-│   ├── dicom_converter/                            # DICOM converter source code
+│   └── dicom_converter/                            # DICOM converter source code
 │       ├── src/                                    # Source code of the main converter
 │       │   ├── constant/                           # Constant values
 │       │   |   ├── code.js/                        # Server error codes
